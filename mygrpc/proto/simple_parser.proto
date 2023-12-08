@@ -1,0 +1,22 @@
+syntax = "proto3";  // 定義要使用的 protocol buffer 版本
+
+option go_package = "mygrpc/pb";
+package address;
+
+message ParserRequest {
+    string address=1;
+}
+
+message ParserResponse {
+	string code = 1;
+    string state = 2;
+    string city = 3;
+    string address = 4;
+}
+
+
+
+service AddressParserService {
+	// 簡易地址解析
+	rpc SimpleParser(ParserRequest) returns (ParserResponse) {};
+}
