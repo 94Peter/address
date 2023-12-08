@@ -1,4 +1,4 @@
-module address
+module github.com/94peter/address
 
 go 1.19
 

@@ -1,9 +1,10 @@
 package server
 
 import (
-	"address/model"
-	"address/mygrpc/pb"
 	"context"
+
+	"github.com/94peter/address/model"
+	"github.com/94peter/address/mygrpc/pb"
 )
 
 func NewAddressParserServer() pb.AddressParserServiceServer {

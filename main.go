@@ -1,14 +1,15 @@
 package main
 
 import (
-	"address/model"
-	"address/mygrpc/pb"
-	"address/mygrpc/server"
 	"flag"
 	"fmt"
 	"log"
 	"net"
 	"os"
+
+	"github.com/94peter/address/model"
+	"github.com/94peter/address/mygrpc/pb"
+	"github.com/94peter/address/mygrpc/server"
 
 	"github.com/94peter/sterna/util"
 	"google.golang.org/grpc"

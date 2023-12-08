@@ -1,7 +1,7 @@
 package client
 
 import (
-	"address/mygrpc/pb"
+	"github.com/94peter/address/mygrpc/pb"
 
 	"github.com/94peter/sterna/mygrpc"
 	"golang.org/x/net/context"
